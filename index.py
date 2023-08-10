@@ -1,5 +1,6 @@
 from CriaImagens.ClassPbm import Pbm
 from CriaImagens.ClassPgm import Pgm
+from CriaImagens.ClassPpm import Ppm
 
 # --------------- PBM - Preto e Branco --------------------
 # Tamanho da imagem
@@ -20,3 +21,6 @@ imgPGM.salvaImgPGM()
 
 
 # --------------- PPM - Colorido --------------------
+
+imgPPM = Ppm(largura, altura, intensidadeMax, 'imgColorida.ppm')
+imgPPM.salvaImgPPM()
