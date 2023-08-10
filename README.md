@@ -9,7 +9,7 @@ PBM - Tipo P1
 PGM - Tipo P2 com 16 níveis intensidade cinza (4bits)
 Obs. Desenvolver algoritmo para abrir arquivo, carregar matriz coluna x linha e depois manipular."
 
-Arquivos relacionados: 'ClassPbm.py', ClassPgm.py' e 'index.py' ;
+Arquivos relacionados: 'ClassPbm.py', 'ClassPgm.py' e 'index.py' ;
 Resulta em dois arquivos: 'imgPretoBranco.pbm' e 'imgTonsCinza.pgm'
 
 2° atividade:
