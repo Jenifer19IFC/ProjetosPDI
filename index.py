@@ -1,6 +1,7 @@
 from CriaImagens.ClassPbm import Pbm
 from CriaImagens.ClassPgm import Pgm
 from CriaImagens.ClassPpm import Ppm
+from RedimensionarResolucao.ClassRedimensionarPgm import RedimensionarPgm
 
 # --------------- PBM - Preto e Branco --------------------
 # Tamanho da imagem
@@ -24,3 +25,17 @@ imgPGM.salvaImgPGM()
 
 imgPPM = Ppm(largura, altura, intensidadeMax, 'imgColorida.ppm')
 imgPPM.salvaImgPPM()
+
+# --------------- Redimensionar resolução de imagem --------------------
+
+
+# Caminho para o arquivo PGM de entrada e saída
+caminhoArquivoEntrada = "teste.pgm"
+caminhoArquivoSaída = "imagem_redimensionada.pgm"
+
+# Define a nova largura e altura
+novaLargura = 8
+novaAltura = 8
+
+redimensionador = RedimensionarPgm()
+redimensionador.redimensionarImagem(caminhoArquivoEntrada, caminhoArquivoSaída, novaLargura, novaAltura)
