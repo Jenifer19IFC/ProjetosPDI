@@ -21,3 +21,17 @@ b) Gerar imagem de tamanho 1000x1000 pixels do tipo PPM ( colorido rgb  ) – ti
 
 Arquivos relacionados: 'ClassPpm.py' e 'index.py';
 Resulta no arquivo: 'imgColorida.py'
+
+# Módulo RedimensionarResolucao
+
+3° atividade:
+"- Utilizar como referencia a imagem (PGM)
+- NÂO será cobrado método específico para aumentar/diminuir resolução, deixarei aberto a forma de como será realizado o processo.
+
+a) Tamanho 10x menor
+b) Padrão 480x320
+c) Padrão 720p (HD)
+d) Padrão 1080p Full HD
+e) Padrão 4k e 8k (interpolada)"
+
+Arquivos relacionados: Todos os arquivsos dentro da pasta "RedimensionarResolucao" 
