@@ -34,4 +34,7 @@ c) Padrão 720p (HD)
 d) Padrão 1080p Full HD
 e) Padrão 4k e 8k (interpolada)"
 
-Arquivos relacionados: Todos os arquivsos dentro da pasta "RedimensionarResolucao" 
+Arquivos relacionados: Todos os arquivsos dentro da pasta "RedimensionarResolucao"
+
+Método escolhido para redimensionar a resolução (aumentar/diminuir): 
+Interpolação pelo vizinho mais próximo - é um método de interpolação determinista no qual o valor estimado é sempre igual à sua amostra mais próxima não considerando qualquer outra.
