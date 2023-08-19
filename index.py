@@ -28,14 +28,22 @@ imgPPM.salvaImgPPM()
 
 # --------------- Redimensionar resolução de imagem --------------------
 
-
 # Caminho para o arquivo PGM de entrada e saída
-caminhoArquivoEntrada = "teste.pgm"
-caminhoArquivoSaída = "imagem_redimensionada.pgm"
+caminhoArquivoEntrada = "RedimensionarResolucao/entrada.pgm"
 
 # Define a nova largura e altura
-novaLargura = 8
-novaAltura = 8
+novaLargura = 400 
+novaAltura = 400
 
 redimensionador = RedimensionarPgm()
-redimensionador.redimensionarImagem(caminhoArquivoEntrada, caminhoArquivoSaída, novaLargura, novaAltura)
+redimensionador.redimensionarImagemGenerico(caminhoArquivoEntrada, novaLargura, novaAltura)
+redimensionador.redimensionarImgDezVezesMenor(caminhoArquivoEntrada)
+redimensionador.redimensionarImgTamPadrao(caminhoArquivoEntrada)
+redimensionador.redimensionarImgHD720p(caminhoArquivoEntrada)
+redimensionador.redimensionarImgFullHd1080p(caminhoArquivoEntrada)
+redimensionador.redimensionarImg4k(caminhoArquivoEntrada)
+redimensionador.redimensionarImg8k(caminhoArquivoEntrada)
+
+
+
+
